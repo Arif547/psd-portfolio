@@ -9,9 +9,13 @@
     font-variation-settings:
       "wdth" 100;
       color: #181818;
+   
     
 }
 
+body, html{
+    overflow-x: hidden;
+}
 
 .secondary-bg{
     background-color: #FFF8F3;
@@ -41,6 +45,21 @@
     color: white;
 }
 
+.btn-secondary{
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
+    color: #FD6E0A;
+    padding: 17px 34px;
+}
+.btn-secondary a{
+    color: #FD6E0A;
+}
+
+.description{
+    color: #757575;
+    font-style: 18px;
+    line-height: 30px;
+}
 
 
 /* Header Style */
@@ -83,9 +102,49 @@ nav{
 
 /* banner style */
 
+
+
 .banner{
+    max-width: 1140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 38px 0 230px;
+    margin: auto;
+    gap: 20px;
+    padding: 0 20px; 
+    height: 725px;
+    
+    
 }
+
+.banner-content{
+    width: 585px;
+    
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 116px;
+    margin-bottom: 5px 0 20px;
+}
+
+.banner .description{
+    margin-bottom: 30px;
+}
+
+.banner-content .btn{
+   margin: 0 30px 30px 0;
+}
+
+.banner img{
+    margin-right: -150px;
+    margin-bottom: -53px;
+    
+ }
