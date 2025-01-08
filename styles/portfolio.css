@@ -31,18 +31,21 @@ body, html{
 
 .btn{
     background-color: #FD6E0A;
-    padding: 18px 35px;
+    padding: 17px 34px;
     border-radius: 5px;
     font-size: 20px;
     color: white;
     font-weight: 700;  
     border: 0;  
     cursor: pointer;
+    border: 1px solid #FD6E0A;
+    transition: all 0.3s ease;
 }
 
 .btn a{
     text-decoration: none;
     color: white;
+    transition: all 0.3s ease;
 }
 
 .btn-secondary{
@@ -50,9 +53,29 @@ body, html{
     background-color: transparent;
     color: #FD6E0A;
     padding: 17px 34px;
+    transition: all 0.3s ease;
 }
 .btn-secondary a{
     color: #FD6E0A;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #FD6E0A;
+}
+
+.btn:hover a{
+    color: #FD6E0A;
+}
+
+.btn-secondary:hover{
+    background-color: #FD6E0A;
+    color: white;
+}
+
+.btn-secondary:hover a{
+    color: white;
 }
 
 .description{
@@ -98,6 +121,11 @@ nav{
 
 .header li a{
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header li:hover a{
+    color: #FD6E0A;
 }
 
 /* banner style */
