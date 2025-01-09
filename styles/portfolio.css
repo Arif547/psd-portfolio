@@ -55,6 +55,10 @@ html {
     transition: all 0.3s ease;
 }
 
+.btn i{
+    color: white;
+}
+
 .btn-secondary {
     border: 1px solid #FD6E0A;
     background-color: transparent;
@@ -68,6 +72,10 @@ html {
     transition: all 0.3s ease;
 }
 
+.btn-secondary i{
+    color: #FD6E0A;
+}
+
 .btn:hover {
     background-color: transparent;
     color: #FD6E0A;
@@ -77,6 +85,10 @@ html {
     color: #FD6E0A;
 }
 
+
+.btn:hover i{
+    color: #FD6E0A;
+}
 .btn-secondary:hover {
     background-color: #FD6E0A;
     color: white;
@@ -86,6 +98,9 @@ html {
     color: white;
 }
 
+.btn-secondary:hover i{
+    color: white;
+}
 
 .title {
     font-size: 35px;
