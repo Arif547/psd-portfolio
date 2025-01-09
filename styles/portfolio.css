@@ -377,9 +377,9 @@ footer{
 form input, form textarea{
     width: 100%;
     margin-bottom: 24px;
+    box-sizing: border-box;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    height: 64px;
     color: rgb(117, 117, 117);
     font-size: 16px;
     font-weight: 400;
@@ -388,8 +388,8 @@ form input, form textarea{
     border: none;
 }
 
-form textarea{
-    height: inherit;
+form input{
+    height: 64px;;
 }
 
 
