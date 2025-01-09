@@ -345,14 +345,51 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-between;
-    gap: 117px;
+    gap: 20px;
+}
+
+.contact-details{
+    max-width: 562px;
+}
+
+.contact-details .title{
+    margin-bottom: 24px;
 }
 
 .footer-container ul{
     display: flex;
     gap: 24px;
+    margin-top: 30px;
 }
 
 .footer-container li{
     list-style: none;
 }
+
+.form .title{
+    margin-bottom: 29px;
+}
+
+.form{
+    width: 461px;
+}
+
+form input, form textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    height: 64px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px;
+    border: none;
+}
+
+form textarea{
+    height: inherit;
+}
+
+
