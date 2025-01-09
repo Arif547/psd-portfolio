@@ -161,8 +161,6 @@ nav {
     gap: 20px;
     padding: 0 20px;
     height: 725px;
-
-
 }
 
 .banner-content {
@@ -203,6 +201,7 @@ nav {
     max-width: 1140px;
     margin: 130px auto;
     padding: 0 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -261,6 +260,7 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .skill {
@@ -296,6 +296,7 @@ nav {
     justify-content: space-around;
     gap: 70px;
     margin: 110px 0 50px;
+    flex-wrap: wrap;
 
 }
 
@@ -346,6 +347,7 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .contact-details{
@@ -360,6 +362,7 @@ footer{
     display: flex;
     gap: 24px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .footer-container li{
