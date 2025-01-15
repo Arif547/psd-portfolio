@@ -164,19 +164,10 @@ nav {
 }
 
 
-
-@media screen and (max-width: 1024px){
-    .header{
-        background-position: bottom left, bottom right;
-    }
-}
-
-
 /* banner style */
 
 
-
-.banner {
+.banner{
     max-width: 1140px;
     display: flex;
     align-items: center;
@@ -219,22 +210,7 @@ nav {
 
 }
 
-@media screen and (max-width: 1024px) {
-    .banner{
-        flex-direction: column;
-        padding-top: 60px;
-        height: auto;
-    }
 
-    .banner-content{
-        width: 100%;
-    }
-
-    .banner img {
-        margin: 0;
-        margin-bottom: -5px;
-    }
-}
 
 
 /* About */
@@ -434,3 +410,63 @@ form input{
 }
 
 
+@media screen and (max-width: 1024px){
+
+    .header{
+        background-position: bottom left, bottom right;
+    }
+
+    .banner{
+        flex-direction: column;
+        padding-top: 60px;
+        height: auto;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner img {
+        margin: 0;
+        margin-bottom: -5px;
+    }  
+
+    .about{
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+    .about-details{
+        padding: 50px 40px;
+    }
+    
+    .skills-container{
+        flex-wrap: wrap;
+    }
+
+    .skill{
+        flex: 1 1 40%;
+    }
+
+    .resume-container{
+        margin-top: 75px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .contact-details, .form{
+        width: 100%;
+    }
+
+    footer{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    footer .btn{
+        margin-bottom: 0;
+    }
+    
+}
