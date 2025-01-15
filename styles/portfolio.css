@@ -163,6 +163,15 @@ nav {
     color: #FD6E0A;
 }
 
+
+
+@media screen and (max-width: 1024px){
+    .header{
+        background-position: bottom left, bottom right;
+    }
+}
+
+
 /* banner style */
 
 
@@ -209,6 +218,24 @@ nav {
     margin-bottom: -53px;
 
 }
+
+@media screen and (max-width: 1024px) {
+    .banner{
+        flex-direction: column;
+        padding-top: 60px;
+        height: auto;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner img {
+        margin: 0;
+        margin-bottom: -5px;
+    }
+}
+
 
 /* About */
 
