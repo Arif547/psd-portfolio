@@ -16,6 +16,7 @@
 body,
 html {
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .container {
@@ -469,4 +470,80 @@ form input{
         margin-bottom: 0;
     }
     
+}
+
+@media screen and (max-width: 767px) {
+
+    nav{
+        padding-top: 30px;
+        gap: 20px;
+    }
+    
+    .header{
+        background-size: 45px, cover;
+    }
+
+    .header h1{
+        font-size: 40px;
+    }
+
+    .header ul{
+        gap: 20px;
+    }
+
+    nav .btn{
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .banner .banner-title{
+        font-size: 60px;
+        line-height: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .banner .image img{
+        height: 350px;
+    }
+
+    
+    .about-details{
+        padding: 40px 30px;
+    }
+
+    .about-content{
+        padding: 30px 20px;
+    }
+
+    .about-content .description {
+        margin: 20px 0;
+        font-style: 16px;
+    }
+
+    .about-content .about-items{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .resume, .skills{
+        padding-bottom: 75px;
+    }
+
+    .resume-container{
+        margin-top: 50px;
+    }
+
+    .resume-container{
+        flex-direction: column;
+    }
+
+    .resume .experience-title{
+        font-size: 22px;
+        line-height: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .resume .experience-sub-title{
+        font-size: 18px;
+    }
 }
